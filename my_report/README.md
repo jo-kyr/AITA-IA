@@ -20,7 +20,7 @@ After some searching, I found a solution on the Processing Foundation website. I
 
 ![scr2](https://user-images.githubusercontent.com/97399069/200664099-a7f91b81-da15-4a7b-983d-5ef49f822b5a.png)
 
-### 2. Recoreded Video
+### 2. Recorded Video
 
 First, I studied Examples 16-4 and 16-5 from the Learning Processing website, as well as the speed() method on the Processing website. Then, I created a new sketch and made a "data" folder, where I placed the video I wanted. I combined the previous examples and tweaked the numbers so that the playback speed is controlled the way I wanted.
 
