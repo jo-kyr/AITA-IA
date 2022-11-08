@@ -36,6 +36,9 @@ void draw()
   }
   nya.beginTransform(0);
   movie.loop();
-  image(movie, 0, 0);
+  fill(0,0,255);
+  translate(20, 60);
+  rotateZ(radians(180));
+  image(movie, 0, 0, 100, 100);
   nya.endTransform();
 }
