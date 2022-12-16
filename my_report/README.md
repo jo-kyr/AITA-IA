@@ -44,24 +44,25 @@ After downloading the NyARToolkit Library and looking through the guide, I creat
 ### 1. Background Removal
 Firstly, I had to make a solid coloured backdrop to capture on camera. Then, following Example 16-12 from the Learning Processing website, I made some changes to the code to fix the "ArrayIndexOutOfBoundsException" error, and replace the background with an image instead of the colour green.
 
-![Uploading 2_1.gif…]()
+![2_1](https://user-images.githubusercontent.com/97399069/208140371-d8b8fb9e-a575-4e0b-9e60-6ded37a0221b.gif)
 
 ### 2. Motion Detection
 Following Examples 16-11 and 16-13, I made a black circle that tracks movement.
 
-![Uploading 2_2.gif…]()
+![2_2](https://user-images.githubusercontent.com/97399069/208140490-bf566469-e1ce-421f-9a23-ce7b61dec22a.gif)
 
 ### 3. Background Substraction - OpenCV
 After installing and importing the OpenCV library to Processing, I opened the BackgroundSubstraction example. After removing the existing video, I added a new capture video element, so moving objects are tracked through the camera. 
 
-![Uploading 2_3.gif…]()
+![2_3](https://user-images.githubusercontent.com/97399069/208140634-4cc1cd42-6442-4b5e-937d-fd620572b56d.gif)
 
 Using the OpenCV library is faster, more precise and easier. There are built in functions that automate the process of what we're trying to achieve, and also give us new abilities.
 
 ### 4. Object Tracking
 Combining Example 16-11 and 9-8 from Learning Processing, there is a stream of rectangles that follow the colour that is selected with the mouse. This worked best when there was high contrast between the colours in the video.
 
-![Uploading 2_4.gif…]()
+![2_4](https://user-images.githubusercontent.com/97399069/208140848-77fb14b8-2d66-4374-b82c-3e7805fdf921.gif)
+
 
 In my opinion, this method of tracking/navigating is less presise than a computer mouse. Firstly, because it would underperform in situations with low light or complex background. And secondly, because the added 3rd dimension makes navigating a 2D screen less intuitive.
 
