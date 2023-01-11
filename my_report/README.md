@@ -83,7 +83,7 @@ After printing the fiducials and finding the images I would be using in the proj
 
 https://user-images.githubusercontent.com/97399069/211919095-7a4b3314-a084-4b85-90f3-8fd8b2394838.mp4
 
-After that, it was time to create the filters for my application. I made use of the PConstants class, since it has functions that can be used for image processing. The filters I created/used are: threshold, blur, gray, translate, posterize, scale, erode and brightness.
+After that, it was time to create the filters for my application. I made use of the PConstants class, since it has functions that can be used for image processing. The filters I created/used are: threshold, blur, gray, translate, posterize, scale, erode and brightness. Adding to the previous switch case, I assigned fiducials 4 to 11 to each of these filters.
 
 ##### Threshold
 
@@ -119,6 +119,11 @@ https://user-images.githubusercontent.com/97399069/211919423-2c6374c9-191b-43e7-
 For the brightness filter, I studied the exaple 15-08 from Learning Processing 2nd Edition. I modified the code so that the image isn't drawn twice on the display window.
 
 https://user-images.githubusercontent.com/97399069/211923728-84bf2bab-0a2e-40f9-9c27-b3fff6a8f3b4.mp4
+
+##### Filter Combination
+Lastly, I tested that my image processing application can successfuly identify two and three filters at once.
+
+https://user-images.githubusercontent.com/97399069/211925275-ccc05fc4-3bd8-4911-9c01-0986ca4536f5.mp4
 
 # Bonus 
 
