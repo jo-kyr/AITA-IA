@@ -80,7 +80,7 @@ I faced some issues with the TUIO Simulator and tested a few different ones to r
 
 #### Image Processing Application
 After printing the fiducials and finding the images I would be using in the project, I started a new sketch and copied the TUIO Demo code into it. I began by loading the images in the setup function. Then, I assigned the fiducials 0 to 3 to each image, using a switch case. When the fiducial is recognized by the reacTIVision software, the corresponding image is drawn onto the display window. I set the imageMode to CENTER and drew the images using the center point of the window. 
-![fiducials](https://user-images.githubusercontent.com/97399069/211929004-472fa50f-a269-4e45-b684-bdc401959b4a.jpg)
+![fiducials](https://user-images.githubusercontent.com/97399069/211931937-1c65e71f-59fb-46a7-93b6-0a452f27f6f9.jpg)
 
 https://user-images.githubusercontent.com/97399069/211919095-7a4b3314-a084-4b85-90f3-8fd8b2394838.mp4
 
