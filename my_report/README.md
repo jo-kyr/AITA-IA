@@ -126,12 +126,18 @@ Lastly, I tested that my image processing application can successfuly identify t
 
 https://user-images.githubusercontent.com/97399069/211925275-ccc05fc4-3bd8-4911-9c01-0986ca4536f5.mp4
 
+##### Camera VS Simulator
+During the process of this project, I had to perform many tests, especially in the beginning. I believe it is best to use a simulator in those first stages, to save time setting up a camera, printing the fiducials and adjusting the environement to test in. When the number of fiducials and their functions have been established and working correctly, we can move on to real life testing. Setting up a "table", as seen below, can simulate a simple multi touch surface and help us test our application as needed, especially when using multiple onjects at once.
+
 # Bonus 
 I followed the instructions in the linked video and set up my own Multi Touch Mini. Using paper to cover the glass obscured the fiducials, so I opted to remove it. The result was the same as holding the fiducials to the camera, however it made it easier to use multiple filters at once.
 
 ![MTMINI](https://user-images.githubusercontent.com/97399069/211929417-6a96d6c3-7b5d-4be0-8ca2-f1a5ac68bf5e.jpg)
+
 ![Screenshot (82)](https://user-images.githubusercontent.com/97399069/211929751-03f57735-5ba7-4a5f-8efa-637a92a7527c.png)
-![Screenshot (83)](https://user-images.githubusercontent.com/97399069/211929769-06798d7b-fec5-4f72-b7d4-09e57f0e19b0.png)
+
+![Screenshot (83)](https://user-images.githubusercontent.com/97399069/211930061-2acaec45-31bf-4586-a2d5-f90462df7fc8.png)
+
 
 # Sources
 * http://learningprocessing.com/
