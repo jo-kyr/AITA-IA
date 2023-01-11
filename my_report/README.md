@@ -67,12 +67,60 @@ Combining Example 16-11 and 9-8 from Learning Processing, there is a stream of r
 In my opinion, this method of tracking/navigating is less presise than a computer mouse. Firstly, because it would underperform in situations with low light or complex background. And secondly, because the added 3rd dimension makes navigating a 2D screen less intuitive.
 
 # 3rd Deliverable 
+#### Installation
+To begin the third part of the assignment, I followed the provided steps:
 
+1. Install the reacTIVision vision engine
+2. Install the reacTIVision library in Processing
+3. Install the TUIO Simulator application
+4. Install the Java RUntime Environment
+5. Run the TUIO Demo provided with the application
+
+I faced some issues with the TUIO Simulator and tested a few different ones to run the TUIO Demo. 
+
+#### Image Processing Application
+After printing the fiducials and finding the images I would be using in the project, I started a new sketch and copied the TUIO Demo code into it. I began by loading the images in the setup function. Then, I assigned the fiducials 0 to 3 to each image, using a switch case. When the fiducial is recognized by the reacTIVision software, the corresponding image is drawn onto the display window. I set the imageMode to CENTER and drew the images using the center point of the window. 
+
+https://user-images.githubusercontent.com/97399069/211919095-7a4b3314-a084-4b85-90f3-8fd8b2394838.mp4
+
+After that, it was time to create the filters for my application. I made use of the PConstants class, since it has functions that can be used for image processing. The filters I created/used are: threshold, blur, gray, translate, posterize, scale, erode and brightness.
+
+##### Threshold
+
+https://user-images.githubusercontent.com/97399069/211919311-c8860929-5b9f-4cbe-9930-1a568761198d.mp4
+
+##### Blur
+
+https://user-images.githubusercontent.com/97399069/211923511-bbced7c6-9cb4-441a-9bd1-6931843ce722.mp4
+
+##### Gray
+
+https://user-images.githubusercontent.com/97399069/211923537-d7b2a863-7619-4387-8dac-d0b36c630858.mp4
+
+##### Translate
+For the translate filter, I wanted the image to follow the position of the mouse. To achieve that I had to first translate the center of the image to the origin point in the upper left corner. That way both the image and the cursor begin at the same point in the display window.
+
+https://user-images.githubusercontent.com/97399069/211923582-713d8e30-ce8c-4346-95b0-f112eba92cd6.mp4
+
+##### Posterize
+
+https://user-images.githubusercontent.com/97399069/211919481-37d91e93-04fe-4fc2-90cc-32fecdbd76c7.mp4
+
+##### Scale
+For the scale filter, I used a variable to map the x position of the mouse. I constrained the scale between -2 and 2, so the image doesn't get too small or too big.
+
+https://user-images.githubusercontent.com/97399069/211924184-60e74267-6c60-480b-96f5-f8733b359bf6.mp4
+
+##### Erode
+
+https://user-images.githubusercontent.com/97399069/211919423-2c6374c9-191b-43e7-b837-85680c38a57c.mp4
+
+##### Brightness
+For the brightness filter, I studied the exaple 15-08 from Learning Processing 2nd Edition. I modified the code so that the image isn't drawn twice on the display window.
+
+https://user-images.githubusercontent.com/97399069/211923728-84bf2bab-0a2e-40f9-9c27-b3fff6a8f3b4.mp4
 
 # Bonus 
-
-
-# Conclusions
 
 
 # Sources
