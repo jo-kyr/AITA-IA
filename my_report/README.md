@@ -80,6 +80,7 @@ I faced some issues with the TUIO Simulator and tested a few different ones to r
 
 #### Image Processing Application
 After printing the fiducials and finding the images I would be using in the project, I started a new sketch and copied the TUIO Demo code into it. I began by loading the images in the setup function. Then, I assigned the fiducials 0 to 3 to each image, using a switch case. When the fiducial is recognized by the reacTIVision software, the corresponding image is drawn onto the display window. I set the imageMode to CENTER and drew the images using the center point of the window. 
+![fiducials](https://user-images.githubusercontent.com/97399069/211929004-472fa50f-a269-4e45-b684-bdc401959b4a.jpg)
 
 https://user-images.githubusercontent.com/97399069/211919095-7a4b3314-a084-4b85-90f3-8fd8b2394838.mp4
 
@@ -126,7 +127,11 @@ Lastly, I tested that my image processing application can successfuly identify t
 https://user-images.githubusercontent.com/97399069/211925275-ccc05fc4-3bd8-4911-9c01-0986ca4536f5.mp4
 
 # Bonus 
+I followed the instructions in the linked video and set up my own Multi Touch Mini. Using paper to cover the glass obscured the fiducials, so I opted to remove it. The result was the same as holding the fiducials to the camera, however it made it easier to use multiple filters at once.
 
+![MTMINI](https://user-images.githubusercontent.com/97399069/211929417-6a96d6c3-7b5d-4be0-8ca2-f1a5ac68bf5e.jpg)
+![Screenshot (82)](https://user-images.githubusercontent.com/97399069/211929751-03f57735-5ba7-4a5f-8efa-637a92a7527c.png)
+![Screenshot (83)](https://user-images.githubusercontent.com/97399069/211929769-06798d7b-fec5-4f72-b7d4-09e57f0e19b0.png)
 
 # Sources
 * http://learningprocessing.com/
