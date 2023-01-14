@@ -6,9 +6,10 @@
 ### Advanced Interaction Tecnologies & Applications Github Personal Repository: https://github.com/jo-kyr/AITA-IA
 
 # Introduction
+This project was an individual assignment within the course of the subject: Advanced Interaction Technologies & Applications. The main focus was learning how to use Processing and the Processing programming language, to create small interactive application. In this report, I will illustrate the steps I followed to complete the project.
 
 # Summary
-
+This project was split into three deliverables, each with its own task list. The 1st Deliverable included simple camera capture and video processing applications, in combination with QR decoding. The 2nd Deliverable consisted of more complex live video processing, such as motion tracking and background subtraction. Lastly, the 3rd Deliverable combined the materials of the previous tasks, in an image processing application using the reacTIVision vision engine and library.
 
 # 1st Deliverable
 ### 1. Video Capture
@@ -62,7 +63,6 @@ Using the OpenCV library is faster, more precise and easier. There are built in 
 Combining Example 16-11 and 9-8 from Learning Processing, there is a stream of rectangles that follow the colour that is selected with the mouse. This worked best when there was high contrast between the colours in the video.
 
 ![2_4](https://user-images.githubusercontent.com/97399069/208140848-77fb14b8-2d66-4374-b82c-3e7805fdf921.gif)
-
 
 In my opinion, this method of tracking/navigating is less presise than a computer mouse. Firstly, because it would underperform in situations with low light or complex background. And secondly, because the added 3rd dimension makes navigating a 2D screen less intuitive.
 
@@ -138,6 +138,8 @@ I followed the instructions in the linked video and set up my own Multi Touch Mi
 
 ![Screenshot (83)](https://user-images.githubusercontent.com/97399069/211930061-2acaec45-31bf-4586-a2d5-f90462df7fc8.png)
 
+# Conclusion
+Overall, this assignment was educational and a good insight on the mechanics of image and video processing. The last deliverable especially was the most fun to work on, and I believe yielded the most impressive results. It made me interested in interactive data visualization as a field, especially on multi touch tables and in combination with 3D projection mapping. 
 
 # Sources
 * http://learningprocessing.com/
